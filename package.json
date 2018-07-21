@@ -1,0 +1,22 @@
+{
+  "name": "nodekb",
+  "version": "1.0.0",
+  "description": "Simple Knowledgebase app",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app"
+  },
+  "author": "Sumit Yadav",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "bootstrap": "^4.1.1",
+    "bower": "^1.8.4",
+    "express": "^4.16.3",
+    "jquery": "^3.3.1",
+    "mongoose": "^5.2.2",
+    "pug": "^2.0.3",
+    "yarn": "^1.7.0"
+
+  }
+}

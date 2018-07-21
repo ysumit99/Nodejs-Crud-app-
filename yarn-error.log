@@ -1,0 +1,57 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\sumit23\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add bootstrap@4.1.1
+
+PATH: 
+  C:\oraclexe\app\oracle\product\11.2.0\server\bin;;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\ProgramData\ComposerSetup\bin;C:\Program Files\Git\cmd;C:\Program Files\PuTTY\;E:\wamp\bin\php\php5.5.12;E:\wamp64\bin\php\php7.0.10;C:\Program Files\nodejs\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\System32\OpenSSH\;C:\Users\sumit23\AppData\Local\Programs\Python\Python36-32\Scripts\;C:\Users\sumit23\AppData\Local\Programs\Python\Python36-32\;C:\Ruby22-x64\bin;c:\Program Files\Java\jdk1.8.0_92\bin\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\sumit23\AppData\Local\Microsoft\WindowsApps;C:\Users\sumit23\AppData\Roaming\Composer\vendor\bin;C:\Users\sumit23\AppData\Roaming\npm;
+
+Yarn version: 
+  1.7.0
+
+Node version: 
+  8.2.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/body-parser: tunneling socket could not be established, cause=connect ECONNREFUSED 127.0.0.1:80
+      at ClientRequest.onError (C:\Users\sumit23\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:147299:17)
+      at Object.onceWrapper (events.js:316:30)
+      at emitOne (events.js:115:13)
+      at ClientRequest.emit (events.js:210:7)
+      at Socket.socketErrorListener (_http_client.js:401:9)
+      at emitOne (events.js:115:13)
+      at Socket.emit (events.js:210:7)
+      at emitErrorNT (internal/streams/destroy.js:64:8)
+      at _combinedTickCallback (internal/process/next_tick.js:138:11)
+      at process._tickCallback (internal/process/next_tick.js:180:9)
+
+npm manifest: 
+  {
+    "name": "nodekb",
+    "version": "1.0.0",
+    "description": "Simple Knowledgebase app",
+    "main": "app.js",
+    "scripts": {
+      "start": "node app"
+    },
+    "author": "Sumit Yadav",
+    "license": "ISC",
+    "dependencies": {
+      "body-parser": "^1.18.3",
+      "bootstrap": "^4.1.1",
+      "bower": "^1.8.4",
+      "express": "^4.16.3",
+      "jquery": "^3.3.1",
+      "mongoose": "^5.2.2",
+      "pug": "^2.0.3",
+      "yarn": "^1.7.0"
+  
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
