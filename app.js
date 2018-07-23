@@ -100,7 +100,11 @@ Article.find({}, function(err, articles){
 
 //Route Files
 let articles  = require('./routes/articles');
+let users  = require('./routes/users');
+
 app.use('/articles', articles);
+app.use('/users', users);
+
 
 // start Server
 
